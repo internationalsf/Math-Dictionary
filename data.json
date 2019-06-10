@@ -12,7 +12,7 @@
     "image": "mediatrice.png"
   },
   {
-    "verified": "no",
+    "verified": "yes",
     "objID": "2019-05-02T23:56:00.750Z",
     "frenchword": "Nombre premier",
     "englishword": "Prime number",
@@ -22,5 +22,17 @@
     "englishproperty": null,
     "imageURL": "https://drive.google.com/open?id=10f2m671scS_XBGe_AMa0NXi6_BJ05ZOG",
     "image": "nombre premier.png"
+  },
+  {
+    "verified": "yes",
+    "objID": "2019-06-10T21:51:06.779Z",
+    "frenchword": "Mot",
+    "englishword": "Word",
+    "frenchdefinition": "Blah Blah Blah",
+    "englishdefinition": "Words Words Words",
+    "frenchproperty": "a;lkdjf;alkfjg",
+    "englishproperty": "a/ldkjfa;lskdfgj",
+    "imageURL": "https://drive.google.com/open?id=1JOyJzgY9wyUPZ3PLotMDRanv4FHCGWgu",
+    "image": "inkblots.png"
   }
 ]
