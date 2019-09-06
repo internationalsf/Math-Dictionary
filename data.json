@@ -1,38 +1,26 @@
 [
   {
-    "Verified": "yes",
-    "Timestamp": "2019-05-02T23:51:52.935Z",
-    "Quel est le mot en français?": "Médiatrice",
-    "What is the word in English?": "Perpendicular bisector",
-    "Ecrire la définition correspondante.": "C'est l'ensemble des points équidistants de deux points A et B",
-    "Write the corresponding definition.": "The line that bisects the line segment perpendicularly ",
-    "Ecrire une propriété relative à cette notion.": "La médiatrice du segment [AB] passe par son milieu perpendiculairement",
-    "Write a property relating to the word.": null,
-    "Vous pouvez déposer un exemple illustré (JPG ou PNG).": "https://drive.google.com/open?id=16EVUNuL-32ABEzlvP8HiNwuX7zIyCe-m",
-    "Enter the name of the image you just uploaded. Please be precise. Example \"surface area.jpeg\"": "mediatrice.png"
+    "verified": "yes",
+    "objID": "2019-05-02T23:51:52.935Z",
+    "frenchword": "Médiatrice",
+    "englishword": "Perpendicular bisector",
+    "frenchdefinition": "C'est l'ensemble des points équidistants de deux points A et B",
+    "englishdefinition": "The line that bisects the line segment perpendicularly ",
+    "frenchproperty": "La médiatrice du segment [AB] passe par son milieu perpendiculairement",
+    "englishproperty": null,
+    "imageURL": "https://drive.google.com/open?id=16EVUNuL-32ABEzlvP8HiNwuX7zIyCe-m",
+    "image": "mediatrice.png"
   },
   {
-    "Verified": "yes",
-    "Timestamp": "2019-05-02T23:56:00.750Z",
-    "Quel est le mot en français?": "Nombre premier",
-    "What is the word in English?": "Prime number",
-    "Ecrire la définition correspondante.": "Un nombre premier est un nombre ayant exactement deux diviseurs : 1 et lui-même",
-    "Write the corresponding definition.": "It's a number that has exactly two factors : 1 and itself",
-    "Ecrire une propriété relative à cette notion.": null,
-    "Write a property relating to the word.": null,
-    "Vous pouvez déposer un exemple illustré (JPG ou PNG).": "https://drive.google.com/open?id=10f2m671scS_XBGe_AMa0NXi6_BJ05ZOG",
-    "Enter the name of the image you just uploaded. Please be precise. Example \"surface area.jpeg\"": "nombre premier.png"
-  },
-  {
-    "Verified": "yes",
-    "Timestamp": "2019-06-10T21:51:06.779Z",
-    "Quel est le mot en français?": "Mot",
-    "What is the word in English?": "Word",
-    "Ecrire la définition correspondante.": "Blah Blah Blah",
-    "Write the corresponding definition.": "Words Words Words",
-    "Ecrire une propriété relative à cette notion.": "a;lkdjf;alkfjg",
-    "Write a property relating to the word.": "a/ldkjfa;lskdfgj",
-    "Vous pouvez déposer un exemple illustré (JPG ou PNG).": "https://drive.google.com/open?id=1JOyJzgY9wyUPZ3PLotMDRanv4FHCGWgu",
-    "Enter the name of the image you just uploaded. Please be precise. Example \"surface area.jpeg\"": "inkblots.png"
+    "verified": "yes",
+    "objID": "2019-05-02T23:56:00.750Z",
+    "frenchword": "Nombre premier",
+    "englishword": "Prime number",
+    "frenchdefinition": "Un nombre premier est un nombre ayant exactement deux diviseurs : 1 et lui-même",
+    "englishdefinition": "It's a number that has exactly two factors : 1 and itself",
+    "frenchproperty": "Test",
+    "englishproperty": "Test",
+    "imageURL": "https://drive.google.com/open?id=10f2m671scS_XBGe_AMa0NXi6_BJ05ZOG",
+    "image": "nombre premier.png"
   }
 ]
