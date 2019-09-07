@@ -12,7 +12,7 @@
     "Enter the name of the image you just uploaded. Please be precise. Example \"surface area.jpeg\"": "mediatrice.png"
   },
   {
-    "verified": "yes",
+    "verified": null,
     "Timestamp": "2019-05-02T23:56:00.750Z",
     "Quel est le mot en français?": "Nombre premier",
     "What is the word in English?": "Prime number",
@@ -24,7 +24,7 @@
     "Enter the name of the image you just uploaded. Please be precise. Example \"surface area.jpeg\"": "nombre premier.png"
   },
   {
-    "verified": "yes",
+    "verified": null,
     "Timestamp": "2019-06-10T21:51:06.779Z",
     "Quel est le mot en français?": "Mot",
     "What is the word in English?": "Word",
@@ -34,5 +34,17 @@
     "Write a property relating to the word.": "a/ldkjfa;lskdfgj",
     "Vous pouvez déposer un exemple illustré (JPG ou PNG).": "https://drive.google.com/open?id=1JOyJzgY9wyUPZ3PLotMDRanv4FHCGWgu",
     "Enter the name of the image you just uploaded. Please be precise. Example \"surface area.jpeg\"": "inkblots.png"
+  },
+  {
+    "verified": null,
+    "Timestamp": "2019-09-03T16:59:59.232Z",
+    "Quel est le mot en français?": "le test",
+    "What is the word in English?": "the test",
+    "Ecrire la définition correspondante.": "oui mais c'est un test",
+    "Write the corresponding definition.": "It's a test!",
+    "Ecrire une propriété relative à cette notion.": "On deteste les tests",
+    "Write a property relating to the word.": "We don't like tests",
+    "Vous pouvez déposer un exemple illustré (JPG ou PNG).": "https://drive.google.com/open?id=1PKSIsTKRNRIqOlXaLvkDB_nr6KzOuYXr",
+    "Enter the name of the image you just uploaded. Please be precise. Example \"surface area.jpeg\"": "test.png"
   }
 ]
