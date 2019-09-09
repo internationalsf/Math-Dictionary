@@ -46,5 +46,17 @@
     "englishproperty": "We don't like tests",
     "imageURL": "https://drive.google.com/open?id=1PKSIsTKRNRIqOlXaLvkDB_nr6KzOuYXr",
     "image": "test.png"
+  },
+  {
+    "verified": "yes",
+    "objID": "2019-09-09T02:20:40.995Z",
+    "frenchword": "Abajour",
+    "englishword": "Lamp",
+    "frenchdefinition": "Lumiere",
+    "englishdefinition": "Light",
+    "frenchproperty": "Beaute",
+    "englishproperty": "Beauty",
+    "imageURL": "https://drive.google.com/open?id=1D7DZqYy5BmKF08xomFoqbYgNYDogyuUf",
+    "image": "screenshot.jpg"
   }
 ]
