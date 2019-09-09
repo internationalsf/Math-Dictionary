@@ -2,8 +2,8 @@
   {
     "verified": "yes",
     "Timestamp": "2019-05-02T23:51:52.935Z",
-    "Quel est le mot en français?": "Médiatrice",
-    "What is the word in English?": "Perpendicular bisector",
+    "frenchword": "Médiatrice",
+    "englishword": "Perpendicular bisector",
     "Ecrire la définition correspondante.": "C'est l'ensemble des points équidistants de deux points A et B",
     "Write the corresponding definition.": "The line that bisects the line segment perpendicularly ",
     "Ecrire une propriété relative à cette notion.": "La médiatrice du segment [AB] passe par son milieu perpendiculairement",
@@ -14,8 +14,8 @@
   {
     "verified": null,
     "Timestamp": "2019-05-02T23:56:00.750Z",
-    "Quel est le mot en français?": "Nombre premier",
-    "What is the word in English?": "Prime number",
+    "frenchword": "Nombre premier",
+    "englishword": "Prime number",
     "Ecrire la définition correspondante.": "Un nombre premier est un nombre ayant exactement deux diviseurs : 1 et lui-même",
     "Write the corresponding definition.": "It's a number that has exactly two factors : 1 and itself",
     "Ecrire une propriété relative à cette notion.": null,
@@ -26,8 +26,8 @@
   {
     "verified": null,
     "Timestamp": "2019-06-10T21:51:06.779Z",
-    "Quel est le mot en français?": "Mot",
-    "What is the word in English?": "Word",
+    "frenchword": "Mot",
+    "englishword": "Word",
     "Ecrire la définition correspondante.": "Blah Blah Blah",
     "Write the corresponding definition.": "Words Words Words",
     "Ecrire une propriété relative à cette notion.": "a;lkdjf;alkfjg",
@@ -38,8 +38,8 @@
   {
     "verified": null,
     "Timestamp": "2019-09-03T16:59:59.232Z",
-    "Quel est le mot en français?": "le test",
-    "What is the word in English?": "the test",
+    "frenchword": "le test",
+    "englishword": "the test",
     "Ecrire la définition correspondante.": "oui mais c'est un test",
     "Write the corresponding definition.": "It's a test!",
     "Ecrire une propriété relative à cette notion.": "On deteste les tests",
