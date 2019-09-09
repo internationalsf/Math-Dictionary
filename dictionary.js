@@ -17,7 +17,7 @@ class MathDictionary extends React.Component {
 
   }
 
-  componentWillMount = ()  => {
+  componentDidMount = ()  => {
     fetch(apiUrl)
       .then(response => response.json())
       .then(result => this.setState({
