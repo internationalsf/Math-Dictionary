@@ -2,7 +2,8 @@
 
 //const apiUrl = 'https://api.myjson.com/bins/1bfvwm'
 //const apiUrl = "https://api.myjson.com/bins/15la2i"
- const apiUrl = "./data.json"
+const apiUrl = "https://sheets.googleapis.com/v4/spreadsheets/1fm7fGnVEU0-AcrEBvFgQr-S2Y3cHq_viBz5PsTIaC2g/values/Form+Responses+1?key=AIzaSyCYr1Oghh_P6G1BVC_RdqlIpAeiyE7MvpY"
+//const apiUrl = "./data.json"
 class MathDictionary extends React.Component {
   constructor(props) {
     super(props)
@@ -20,10 +21,28 @@ class MathDictionary extends React.Component {
   componentDidMount = ()  => {
     fetch(apiUrl)
       .then(response => response.json())
-      .then(result => this.setState({
-        words: result
-      }))
+      .then(result => 
+        this.setState({
+          // parse the JSON from Google Sheets and filter out any unverified items
+          words: this.parseGoogleSheetsJSON(result).filter(item => item.verified === "yes")
+        }
+      ))
       .catch(error => error)
+  }
+
+  parseGoogleSheetsJSON(jsonInput) {
+    // take the first row and use it for headers
+    var headerNames = jsonInput.values.slice(0, 1)[0]
+    // map the remaining rows using these headers
+    var resultItems = jsonInput.values.slice(1).map(item => {
+      var finalItem = {}
+      for (var fieldIndex = 0; fieldIndex < headerNames.length; fieldIndex++) {
+        finalItem[headerNames[fieldIndex]] = item[fieldIndex]
+      }
+      return finalItem
+    })
+
+    return resultItems
   }
 
   listView = () => {
@@ -43,7 +62,7 @@ class MathDictionary extends React.Component {
   getWords = () => {
     let words, yesWords
 
-    yesWords = this.state.words.filter(item => item.verified !== null)
+    yesWords = this.state.words
 
     if (this.state.language === 'french') {
       words = yesWords.map(item => item.frenchword.toLowerCase())
@@ -197,7 +216,9 @@ if (this.state.language === "french") {
         const data = this.state.words
         for (let i = 0; i < data.length; i++) {
           if (data[i].objID === this.state.obj) {
-            img = "/assets/" + data[i].image //+ ".png"
+            // serve images directly from Google Drive
+            // see: https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website
+            img = data[i].imageURL.replace("/open?", "/uc?")
           }
         }
         return <img id="wordImage" src={img}></img>
