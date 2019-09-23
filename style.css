@@ -147,7 +147,7 @@ img {
   width: 45%;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   
   #body {
     background-color: white;
@@ -170,7 +170,7 @@ img {
     width: 30%;
     font-size: 250%;
     border: none;
-    background-color: #b5feffff;           /*#3dc1d3 /*#a0deedff*/
+    background-color: #b5feffff;           
     color: black;
     font-family: 'Varela Round', sans-serif;
     border-radius: 10px;
@@ -179,12 +179,12 @@ img {
     text-align: center;
   }
   
-  .languageButton2 {                         /* English */
+  .languageButton2 {                        
     display: inline-grid;
     width: 30%;
     font-size: 250%;
     border: none;
-    background-color: #ffd68cff;           /*#f5cd79 /*#f6e58dff*/
+    background-color: #ffd68cff;          
     color: black;
     font-family: 'Varela Round', sans-serif;
     border-radius: 10px;
@@ -194,12 +194,12 @@ img {
   }
  
   .languageButton1:hover {
-    background-color: #e4fffbff;            /*#cdf5ffff*/
-    border-radius: 10px;                     /*font-family: 'Sanchez', serif;*/
+    background-color: #e4fffbff;            
+    border-radius: 10px;                    
   }
   
   .languageButton2:hover {
-    background-color: #fff4acff;            /*font-family: 'Sanchez', serif;*/
+    background-color: #fff4acff;            
     border-radius: 10px;
   }
   
@@ -228,10 +228,6 @@ img {
     font-family: 'Varela Round', sans-serif;
   }
   
-  /* .buttonArea {   
-    background-color: red;
-  } */
-  
   #searchBox {
     display: block;
     margin: auto;
@@ -258,7 +254,6 @@ img {
     background-color: #e3ebc4ff;
   }
   
-  /*Something wrong here code isn't working*/
   .nextButton {
     width: 15%;
     height: 15%;
@@ -299,4 +294,4 @@ img {
   }
 
 
-}
+} */
