@@ -1,5 +1,5 @@
-#body {                                       /* eveything in the body will be effected  */
-  background-color: white;
+body {
+  # eveything in the body will be effected background-color: white;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -19,7 +19,9 @@ h1 {
   width: 30%;
   font-size: 250%;
   border: none;
-  background-color: #b5feffff;           /*#3dc1d3 /*#a0deedff*/
+  background-color: #b5feffff
+    /*#3dc1d3 /*#a0deedff*/
+  ;
   color: black;
   font-family: 'Varela Round', sans-serif;
   border-radius: 10px;
@@ -28,12 +30,15 @@ h1 {
   text-align: center;
 }
 
-.languageButton2 {                         /* English */
+.languageButton2 {
+  /* English */
   display: inline-grid;
   width: 30%;
   font-size: 250%;
   border: none;
-  background-color: #ffd68cff;           /*#f5cd79 /*#f6e58dff*/
+  background-color: #ffd68cff
+    /*#f5cd79 /*#f6e58dff*/
+  ;
   color: black;
   font-family: 'Varela Round', sans-serif;
   border-radius: 10px;
@@ -43,12 +48,16 @@ h1 {
 }
 
 .languageButton1:hover {
-  background-color: #e4fffbff;            /*#cdf5ffff*/
-  border-radius: 10px;                     /*font-family: 'Sanchez', serif;*/
+  background-color: #e4fffbff
+    /*#cdf5ffff*/
+  ;
+  /*font-family: 'Sanchez', serif;*/
+  border-radius: 10px;
 }
 
 .languageButton2:hover {
-  background-color: #fff4acff;            /*font-family: 'Sanchez', serif;*/
+  background-color: #fff4acff;
+  /*font-family: 'Sanchez', serif;*/
   border-radius: 10px;
 }
 
@@ -77,9 +86,9 @@ h1 {
   font-family: 'Varela Round', sans-serif;
 }
 
-/* .buttonArea {   
-  background-color: red;
-} */
+.buttonArea {
+  /*background-color: red;*/
+}
 
 #searchBox {
   display: block;
@@ -146,152 +155,3 @@ img {
   display: inline-block;
   width: 45%;
 }
-
-/* @media screen and (max-width: 768px) {
-  
-  #body {
-    background-color: white;
-    font-family: 'Varela Round', sans-serif;
-  }
-
-  #content {
-    width: 90%;
-    margin: auto;
-  }
-
-  h1 {
-    text-align: center;
-    font-size: 400%;
-    background-color: #e77f67;
-    border-radius: 10px;
-  }
-  
-  .languageButton1 {
-    width: 30%;
-    font-size: 250%;
-    border: none;
-    background-color: #b5feffff;           
-    color: black;
-    font-family: 'Varela Round', sans-serif;
-    border-radius: 10px;
-    position: left;
-    display: inline-grid;
-    text-align: center;
-  }
-  
-  .languageButton2 {                        
-    display: inline-grid;
-    width: 30%;
-    font-size: 250%;
-    border: none;
-    background-color: #ffd68cff;          
-    color: black;
-    font-family: 'Varela Round', sans-serif;
-    border-radius: 10px;
-    position: relative;
-    text-align: center;
-    float: right;
-  }
- 
-  .languageButton1:hover {
-    background-color: #e4fffbff;            
-    border-radius: 10px;                    
-  }
-  
-  .languageButton2:hover {
-    background-color: #fff4acff;            
-    border-radius: 10px;
-  }
-  
-  .languageButton1:focus {
-    outline: 0;
-  }
-  
-  .languageButton2:focus {
-    outline: 0;
-  }
-  
-  #wordBackground {
-    background-color: #d1eb8fff;
-    border-radius: 10px;
-  }
-  
-  .wordButton {
-    border-radius: 10px;
-    background-color: white;
-    width: 25%;
-    padding: 0%;
-    margin-left: 15%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-size: 150%;
-    font-family: 'Varela Round', sans-serif;
-  }
-  
-  #searchBox {
-    display: block;
-    margin: auto;
-    font-size: 200%;
-    text-align: center;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: black;
-    margin-bottom: 2%;
-  }
-  
-  .navButton {
-    width: 100%;
-    border: none;
-    background-color: #d1eb8fff;
-    border-radius: 10px;
-  }
-  
-  .navButton:focus {
-    outline: 0;
-  }
-  
-  .navButton:hover {
-    background-color: #e3ebc4ff;
-  }
-  
-  .nextButton {
-    width: 15%;
-    height: 15%;
-  }
-  
-  .backButton {
-    width: 15%;
-    height: 15%;
-  }
-  
-  .homeButton {
-    width: 5%;
-    height: 5%;
-  }
-  
-  img {
-    display: block;
-    margin: auto;
-    width: 30%;
-    height: 30%;
-  }
-  
-  #definitions {
-    padding-bottom: 5%;
-    padding-top: 2%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .fDefintion {
-    display: inline-block;
-    width: 45%;
-  }
-  
-  .eDefintion {
-    display: inline-block;
-    width: 45%;
-  }
-
-
-} */
