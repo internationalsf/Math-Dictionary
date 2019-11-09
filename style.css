@@ -139,19 +139,19 @@ img {
   height: 30%;
 }
 
-#definitions {
+#definitions, #properties {
   padding-bottom: 5%;
   padding-top: 2%;
   display: flex;
   justify-content: space-evenly;
 }
 
-.fDefintion {
+.fDefintion, .fProperty {
   display: inline-block;
   width: 45%;
 }
 
-.eDefintion {
+.eDefintion, .eProperty {
   display: inline-block;
   width: 45%;
 }
