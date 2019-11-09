@@ -190,6 +190,7 @@ class MathDictionary extends React.Component {
         {this.showTitle()}
         {this.showHomeButton()}
         {this.showWords()}
+        {this.showProperties()}
         {this.showImage()}
         {this.showDefinition()}
       </div>
@@ -223,6 +224,35 @@ class MathDictionary extends React.Component {
       );
     }
   };
+
+  showProperties = () => {
+    let fProp, eProp;
+    const data = this.state.words;
+    console.log(data);
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].objID === this.state.obj) {
+        fProp = data[i].frenchproperty;
+        eProp = data[i].englishproperty;
+      }
+    }
+
+    if (this.state.language === "french") {
+      return (
+        <div id="properties">
+          <div className="fProperty">{fProp}</div>
+          <div className="eProperty">{eProp}</div>
+        </div>
+      );
+    } else if (this.state.language === "english") {
+      return (
+        <div id="properties">
+          <div className="eProperty">{eProp}</div>
+          <div className="fProperty">{fProp}</div>
+        </div>
+      );
+    }
+  };
+
   showWords = () => {
     let fWord, eWord;
     const data = this.state.words;
