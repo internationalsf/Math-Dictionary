@@ -35,11 +35,11 @@ class MathDictionary extends React.Component {
     // take the first row and use it for headers
     var headerNames = jsonInput.values.slice(0, 1)[0];
     // map the remaining rows using these headers
-    var currentObjID = 0; 
+    var currentObjID = 1; 
 
     var resultItems = jsonInput.values.slice(1).map(item => {
       var finalItem = {
-        objID: currentObjID++
+        objID: ++currentObjID
       };
       for (var fieldIndex = 0; fieldIndex < headerNames.length; fieldIndex++) {
         finalItem[headerNames[fieldIndex]] = item[fieldIndex];
