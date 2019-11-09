@@ -3,7 +3,7 @@
 //const apiUrl = 'https://api.myjson.com/bins/1bfvwm'
 //const apiUrl = "https://api.myjson.com/bins/15la2i"
 const apiUrl =
-  "https://sheets.googleapis.com/v4/spreadsheets/1fm7fGnVEU0-AcrEBvFgQr-S2Y3cHq_viBz5PsTIaC2g/values/Form+Responses+1?key=AIzaSyCYr1Oghh_P6G1BVC_RdqlIpAeiyE7MvpY";
+  "https://sheets.googleapis.com/v4/spreadsheets/1fm7fGnVEU0-AcrEBvFgQr-S2Y3cHq_viBz5PsTIaC2g/values/responses?key=AIzaSyCYr1Oghh_P6G1BVC_RdqlIpAeiyE7MvpY";
 //const apiUrl = "./data.json"
 class MathDictionary extends React.Component {
   constructor(props) {
