@@ -144,10 +144,14 @@ img {
 
 .fDefintion, .fProperty {
   display: inline-block;
-  width: 45%;
+  width: 30%;
+  text-align:justify;
+  margin-top:20px;
 }
 
 .eDefintion, .eProperty {
   display: inline-block;
-  width: 45%;
+  width: 30%;
+  text-align:justify;
+  margin-top:20px;
 }
