@@ -142,16 +142,34 @@ img {
   justify-content: space-evenly;
 }
 
-.fDefintion, .fProperty {
+.fDefintion {
   display: inline-block;
   width: 30%;
   text-align:justify;
   margin-top:20px;
+  margin-right:300px;
 }
 
-.eDefintion, .eProperty {
+.fProperty {
   display: inline-block;
   width: 30%;
   text-align:justify;
   margin-top:20px;
+  margin-right:300px;
+}
+
+.eDefintion {
+  display: inline-block;
+  width: 30%;
+  text-align:justify;
+  margin-top:20px;
+  margin-left:300px;
+}
+
+ .eProperty {
+  display: inline-block;
+  width: 30%;
+  text-align:justify;
+  margin-top:20px;
+  margin-left:300px;
 }
