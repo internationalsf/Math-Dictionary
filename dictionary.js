@@ -190,9 +190,9 @@ class MathDictionary extends React.Component {
         {this.showTitle()}
         {this.showHomeButton()}
         {this.showWords()}
-        {this.showProperties()}
-        {this.showImage()}
         {this.showDefinition()}
+        {this.showImage()}
+        {this.showProperties()}
       </div>
     );
   };
