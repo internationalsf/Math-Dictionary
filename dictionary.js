@@ -208,21 +208,13 @@ class MathDictionary extends React.Component {
       }
     }
 
-    if (this.state.language === "french") {
-      return (
-        <div id="definitions">
-          <div className="fDefinition">{fDef}</div>
-          <div className="eDefinition">{eDef}</div>
-        </div>
-      );
-    } else if (this.state.language === "english") {
-      return (
-        <div id="definitions">
-          <div className="eDefinition">{eDef}</div>
-          <div className="fDefinition">{fDef}</div>
-        </div>
-      );
-    }
+    return (
+      <div id="definitions">
+        <div className="fDefinition">{fDef}</div>
+        <div className="eDefinition">{eDef}</div>
+      </div>
+    );
+  
   };
 
   showProperties = () => {
@@ -235,21 +227,14 @@ class MathDictionary extends React.Component {
         eProp = data[i].englishproperty;
       }
     }
+    
+    return (
+      <div id="properties">
+        <div className="fProperty">{fProp}</div>
+        <div className="eProperty">{eProp}</div>
+      </div>
+    );
 
-    if (this.state.language === "french") {
-      return (
-        <div id="properties">
-          <div className="fProperty">{fProp}</div>
-          <div className="eProperty">{eProp}</div>
-        </div>
-      );
-    } else if (this.state.language === "english") {
-      return (
-        <div id="properties">
-          <div className="eProperty">{eProp}</div>
-          <div className="fProperty">{fProp}</div>
-        </div>
-      );
     }
   };
 
