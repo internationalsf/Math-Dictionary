@@ -234,8 +234,6 @@ class MathDictionary extends React.Component {
         <div className="eProperty">{eProp}</div>
       </div>
     );
-
-    }
   };
 
   showWords = () => {
